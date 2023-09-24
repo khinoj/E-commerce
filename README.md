@@ -1,5 +1,13 @@
 # E-commerce Back End Starter Code
 
+## Table of Content
+  1. [Description](#description)
+  2. [Run](#run)
+  3. [Repo](#repo)
+  4. [Badge](#badge)
+  5. [License](#license)
+  6. [Video](#video)
+
 ## User Story
 - AS A manager at an internet retail company
 - I WANT a back end for my e-commerce website that uses the latest technologies
@@ -17,3 +25,13 @@
 - THEN the data for each of these routes is displayed in a formatted JSON
 - WHEN I test API POST, PUT, and DELETE routes in Insomnia Core
 - THEN I am able to successfully create, update, and delete data in my database
+
+  ## Badge
+  - ![License: MIT License](https://img.shields.io/badge/License-MIT.0-red)
+
+  ## License
+  - https://opensource.org/license/mit/
+
+  ## Video
+  -
+ 
