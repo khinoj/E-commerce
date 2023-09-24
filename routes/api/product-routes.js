@@ -18,6 +18,7 @@ router.get('/:id', (req, res) => {
 // create new product
 router.post('/', (req, res) => {
   /* req.body should look like this...
+  //copy below text for testing in insomnia
     {
       product_name: "Basketball",
       price: 200.00,
