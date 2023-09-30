@@ -1,8 +1,8 @@
 # E-commerce Back End Starter Code
 
 ## Table of Content
-  1. [Description](#description)
-  2. [Run](#run)
+  1. [Acceptance_Criteria](#acceptance_criteria)
+  2. [Run](#start_server)
   3. [Repo](#repo)
   4. [Badge](#badge)
   5. [License](#license)
@@ -13,7 +13,7 @@
 - I WANT a back end for my e-commerce website that uses the latest technologies
 - SO THAT my company can compete with other e-commerce companies
 
-## Acceptance Criteria
+## Acceptance_Criteria
 - GIVEN a functional Express.js API
 - WHEN I add my database name, MySQL username, and MySQL password to an   environment variable file
 - THEN I am able to connect to a database using Sequelize
@@ -26,6 +26,12 @@
 - WHEN I test API POST, PUT, and DELETE routes in Insomnia Core
 - THEN I am able to successfully create, update, and delete data in my database
 
+  ## Start_Server
+  - To start the program I would type in the terminal nodemon server.js
+
+  ## Repo
+  - https://github.com/khinoj/E-commerce
+
   ## Badge
   - ![License: MIT License](https://img.shields.io/badge/License-MIT.0-red)
 
@@ -33,5 +39,5 @@
   - https://opensource.org/license/mit/
 
   ## Video
-  -
+  - https://drive.google.com/file/d/1gNAU4nKZZccZZAamkzr5ahJUVrV11LbE/view
  

@@ -8,9 +8,15 @@ router.get('/', async (req, res) => {
   // find all products
   // be sure to include its associated Category and Tag data
   try {
-    const productData = await Product.findAll({ include: [{ model: Product }, { model: Tag, through: ProductTag}] });
-    res.status(200).json(productData);
+    const productsData = await Product.findAll({
+      include: [
+        { model: Category },
+        { model: Tag, through: ProductTag },
+      ],
+    });
+    res.json(productsData);
   } catch (err) {
+    console.error(err);
     res.status(500).json(err);
   }
 });
@@ -44,10 +50,10 @@ router.post('/', (req, res) => {
   /* req.body should look like this...
   //copy below text for testing in insomnia
     {
-      product_name: "Basketball",
-      price: 200.00,
-      stock: 3,
-      tagIds: [1, 2, 3, 4]
+      "product_name": "Basketball",
+      "price": 200.00,
+      "stock": 3,
+      "tagIds": [1, 2, 3, 4]
     }
   */
   Product.create(req.body)
